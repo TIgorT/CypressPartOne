@@ -1,0 +1,25 @@
+{
+  "name": "cypresspartone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "laptop": "npx cypress run --config-file cypress.config.laptop.js",
+    "mobile": "npx cypress run --config-file cypress.config.mobile.js",
+    "laptop-headed": "npx cypress run --browser chrome --headed --config-file cypress.config.laptop.js",
+    "mobile-headed": "npx cypress run --browser chrome --headed --config-file cypress.config.mobile.js",
+    "laptop-headless": "npx cypress run --browser chrome --headless --config-file cypress.config.laptop.js",
+    "mobile-headless": "npx cypress run --browser chrome --headless --config-file cypress.config.mobile.js",
+    "laptop-headed f": "npx cypress run --browser firefox --headed --config-file cypress.config.laptop.js",
+    "mobile-headed f": "npx cypress run --browser firefox --headed --config-file cypress.config.mobile.js",
+    "laptop-headless f": "npx cypress run --browser firefox --headless --config-file cypress.config.laptop.js",
+    "mobile-headless f": "npx cypress run --browser firefox --headless --config-file cypress.config.mobile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "cypress": "^13.2.0"
+  }
+}
