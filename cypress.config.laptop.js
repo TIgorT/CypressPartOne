@@ -7,10 +7,8 @@ module.exports = defineConfig({
       openMode: 1,
       runMode: 2,
     },
-    env: {
-      viewportWidth: 1920,
-      viewportHeight: 1200,
-    },
+    viewportWidth: 1920,
+    viewportHeight: 1200,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
